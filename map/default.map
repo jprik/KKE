@@ -1,0 +1,111 @@
+max_provinces = 1018
+# stats:  1004 provinces
+# unused: 161 212 241 308 322 358 532 632 912 951
+definitions = "definition.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain.txt"
+heightmap = "topology.bmp"
+tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+climate = "climate.txt"
+region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+static = "statics"
+seasons = "seasons.txt"
+externals = {
+}
+
+sea_zones = { 28 28 }
+sea_zones = { 60 60 }
+sea_zones = { 69 69 }
+sea_zones = { 72 72 }
+sea_zones = { 100 100 }
+sea_zones = { 109 109 }
+sea_zones = { 112 112 }
+sea_zones = { 173 173 }
+sea_zones = { 177 177 }
+sea_zones = { 184 184 }
+sea_zones = { 186 186 }
+sea_zones = { 194 195 }
+sea_zones = { 200 200 }
+sea_zones = { 211 211 }
+sea_zones = { 227 227 }
+sea_zones = { 232 232 }
+sea_zones = { 260 260 }
+sea_zones = { 275 275 }
+sea_zones = { 278 279 }
+sea_zones = { 285 285 }
+sea_zones = { 289 289 }
+sea_zones = { 316 316 }
+sea_zones = { 318 318 }
+sea_zones = { 360 360 }
+sea_zones = { 386 386 }
+sea_zones = { 388 388 }
+sea_zones = { 394 395 }
+sea_zones = { 398 400 }
+sea_zones = { 404 405 }
+sea_zones = { 411 411 }
+sea_zones = { 417 417 }
+sea_zones = { 421 421 }
+sea_zones = { 436 436 }
+sea_zones = { 455 455 }
+sea_zones = { 487 487 }
+sea_zones = { 524 524 }
+sea_zones = { 534 534 }
+sea_zones = { 538 538 }
+sea_zones = { 553 554 }
+sea_zones = { 567 568 }
+sea_zones = { 572 572 }
+sea_zones = { 575 575 }
+sea_zones = { 633 633 }
+sea_zones = { 638 638 }
+sea_zones = { 645 645 }
+sea_zones = { 650 650 }
+sea_zones = { 652 652 }
+sea_zones = { 656 656 }
+sea_zones = { 669 669 }
+sea_zones = { 673 673 }
+sea_zones = { 678 678 }
+sea_zones = { 743 743 }
+sea_zones = { 756 756 }
+sea_zones = { 762 762 }
+sea_zones = { 765 765 }
+sea_zones = { 768 768 }
+sea_zones = { 773 773 }
+sea_zones = { 788 788 }
+sea_zones = { 793 793 }
+sea_zones = { 803 805 }
+sea_zones = { 807 807 }
+sea_zones = { 812 812 }
+sea_zones = { 818 818 }
+sea_zones = { 820 820 }
+sea_zones = { 823 823 }
+sea_zones = { 826 826 }
+sea_zones = { 828 828 }
+sea_zones = { 908 908 }
+sea_zones = { 933 933 }
+sea_zones = { 935 935 }
+sea_zones = { 945 945 }
+sea_zones = { 958 958 }
+sea_zones = { 978 978 }
+sea_zones = { 982 982 }
+sea_zones = { 992 992 }
+sea_zones = { 1005 1011 }
+sea_zones = { 1015 1015 }
+
+ocean_region = {	# OCEAN
+	sea_zones = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 }
+}
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+
+major_rivers = 
+{
+	# OCEAN
+	
+}
